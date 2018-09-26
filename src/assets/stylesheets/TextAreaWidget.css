@@ -1,0 +1,43 @@
+/**
+ * Style sheet class definitions for <table>
+ */
+
+
+/**
+ * Style sheet class definitions for <textarea>
+ */
+.TextAreaStyle{
+	font-family:arial;
+	font-size: 12px;
+	font-weight:bold;
+	background:#ffffff;
+	color:#333399;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	width: 100%;
+}
+
+.TextAreaNoEditStyle{
+	font-family:arial;
+	font-size: 12px;
+	font-weight:normal;
+	background:#ffffff;
+	color:#333399;
+	border-width:0px;
+	border-style:solid;
+	border-color:#226099;
+	width: 100%;
+}
+
+.TextAreaNormalStyle{
+	font-family:arial;
+	font-size: 12px;
+	font-weight:normal;
+	background:#ffffff;
+	color:black;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	width: 100%;
+}

@@ -1,0 +1,103 @@
+/** Add css rules here for your application. */
+
+/* This style is used by the legend widget for bold white label font */
+.oweb-LTGLabel-theme {
+	font:bold 12px tahoma,arial,helvetica,sans-serif;
+	color: white;
+}
+
+.gwt-ScrollTable .headerWrapper {
+	background: #CDDFFB repeat-x bottom
+	left;
+}
+
+/* header font and background image */
+.gwt-ScrollTable .headerTable td {
+	font: bold 11px 'segoe ui', tahoma, arial, sans-serif;
+	align: center;
+	padding: 0;
+	border-color: #e0e0e0;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding-left: 2px;
+	white-space: nowrap;
+	overflow: visible;
+	background: #CDDFFB;
+}
+
+.oweb-legendBar-Style {
+  		border: 0px #8BB8F3 solid;
+	    color: #000000;
+		padding: 0px;
+		font-weight:bold;
+		text-align: left;
+		text-decoration: none;
+		height:2%;
+		background: #8bd url(../images/bg_header_gradient.gif) repeat-x bottom;
+		cursor:pointer;
+}
+
+.oweb-Table-Header-Icon {
+	border: none;
+}
+
+.oweb-LTGLink-border {
+	border-top: 1px solid #8BB8F3;
+	border-left: 1px solid #8BB8F3;
+	border-right: 1px solid #8BB8F3;
+	border-bottom: 1px solid #8BB8F3;
+
+}
+
+.error-message
+{
+	font:arial;
+	font-size: 12px;
+	font-weight: normal;
+	color : #FF0033;
+}
+
+.error-header-message
+{
+	font:arial;
+	font-size: 15px;
+	font-weight: normal;
+	color : #660000;
+	text-decoration: underline;
+}
+
+.menuItemTextColor {
+color: red;
+}
+
+.gwt-TabBarItem-selected .oweb-LTGLabel {
+  color: black;
+  font:bold 12px verdana, tahoma,helvetica;
+}
+
+.gwt-MenuItem-visited {
+ font: bold 13px tahoma,arial,sans-serif ! important;
+ font-weight:bold ! important;
+ color:black;
+}
+
+.oweb-ListBox-ContainerPanel-focus .textbox {
+	height:19px;
+}
+
+.oweb-ListBox-ContainerPanel .textbox {
+	height:19px;
+
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage {
+	height:18px;
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage-over {
+	height:18px;
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage-Click {
+	height:18px;
+}

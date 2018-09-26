@@ -1,0 +1,325 @@
+/**
+ * Style sheet class definitions for <table>
+ */
+.LTGLabelStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight:bold;
+	color:#333399;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+.LTGLabelStyleNew {
+	font-family:Verdana;
+	font-size: 11px;
+	/* color:#333399;*/
+	font-weight:bold;
+	color:#454545;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+.LTGLabelSubSectionStyle {
+	font-family:Tahoma;
+	font-size: 11px;
+	font-weight:bold;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+.LTGLabelStyleNoPadding {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight:bold;
+	color:#333399;
+	height:15px;
+	border: 0 0 0;
+}
+.LTGLabelStyleRed {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight:bold;
+	color:red;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+.LTGNoEditTextCompactStyle {
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	font-color:#333399;
+	background:transparent;
+	border-width:0px;
+	height:15px;
+}
+
+.borderRidge {
+	border-top: 2px ridge #ffffff;
+	border-bottom: 2px ridge #ffffff;
+}
+
+.LTGLabelIndicatorStyle {
+	font-family:tohoma;
+	font-size:10px;
+	font-weight:regular;
+	color:#333399;
+	height:20px;
+	padding:0px;
+	border: 0 0 0;
+}
+
+.LTGRegularLabelStyle {
+	font-family:verdana;
+	font-size: 11px;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGTextStyle {
+	font-family:arial;
+	font-size: 11px;
+	font-weight:bold;
+	background:#ffffff;
+	color:#333399;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+}
+
+.LTGTextStyleNew {
+	font-family:Verdana;
+	font-size: 11px;
+	background:#F2F8FF;
+	color:#000000;
+	border-width:0px;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGButtonStyle {
+	font-family:arial;
+	font-size: 11px;
+	background:#CCCCCC;
+	color:black;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGDateStyle {
+	font-family:arial;
+	font-size: 11px;
+	background:#ffffff;
+	color:gray;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ * 	font-color:#226099;
+ */
+.LTGNoEditTextStyle {
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	font-color:#333399;
+	background:transparent;
+	border-width:0px;
+	height:19px;
+	padding-top:5px;
+	margin-left: 3;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ * 	font-color:#226099;
+ */
+.LTGNoEditTextStyleRed {
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	color:red;
+	background:transparent;
+	border-width:0px;
+	height:19px;
+	padding-top:5px;
+	margin-left: 3;
+}
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGNoEditTextWithBorderStyle {
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	font-color:#226099;
+	background:transparent;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:3px;
+	margin-left: 3px;
+}
+
+/**
+ * Style sheet class definition for <input>
+ * Mouse over style
+ */
+.LTGTextMouseOverStyle {
+	font-family:"arial,sans-serif";
+	font-size: 11px;
+	font-weight:bold;
+	background:#ffffff;
+	color:#333399;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+}
+
+
+/**
+ * Style sheet class definitions for <A> LTG Link
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGLinkDefaultStyle {
+	font-family:verdana;
+	font-size: 9px;
+	font-weight:bold;
+	color:#333399;
+	margin-left: 3px;
+}
+
+
+/**
+ * Style sheet class definitions for <A> LTG Link
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LTGLinkMouseOverStyle {
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	color:red;
+	margin-left: 3px;
+	cursor: hand;
+}
+
+/**
+ * Style sheet class definitions for <A> LabelWidget
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.LabelStyle {
+	font-family:verdana;
+	font-size: 30px;
+	/*font-weight:bold;
+	font-style: italic;*/
+	color:#000063;
+	height:20px;
+	padding:1px;
+	border: 0px 0px 0px;
+}
+
+/**
+ * Style sheet class definitions for <A> LabelWidget
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+.SmallLabelStyle {
+	font-family:verdana;
+	font-size: 24px;
+	/*font-weight:bold;
+	font-style: italic;*/
+	color:#000063;
+	height:15px;
+	padding:0px;
+	border: 0px 0px 0px;
+}
+
+.BoldLabelStyle {
+	font-family:verdana;
+	font-size: 16px;
+	font-weight:bold;
+	color:#000063;
+	height:15px;
+	padding:0px;
+	border: 0 0 0;
+}
+
+.LabelWarningStyle {
+	font-family:verdana;
+	font-size: 11px;
+	color:red;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+
+.LabelPanelStyle {
+        font-family:times;
+        font-size: 20px;
+        font-weight:bold;
+        color:#333399;
+        height:20px;
+        padding:1px;
+        border: 0 0 0;
+}
+
+.LinkWidgetStyle {
+        font-family:verdana;
+        font-size: 11px;
+        font-weight:bold;
+        color: #008000;
+        margin-left: 3;
+}
+
+.LinkWidgetStyle2 {
+		text-decoration: underline;
+		cursor: hand;
+
+        font-family:verdana;
+        font-size: 11px;
+        font-weight:bold;
+        color: #ff0000;
+        margin-left: 3;
+}
+.LTGNoEditTextRed {
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:red;
+	background:transparent;
+	border-width:0px;
+	height:19px;
+	padding-top:4px;
+	margin-left: 3;
+}

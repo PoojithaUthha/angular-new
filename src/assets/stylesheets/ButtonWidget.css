@@ -1,0 +1,50 @@
+/*
+ * Default Style sheet class definitions for <button>
+ */
+
+input.buttonDefaultStyle {
+        font-family:arial,sans-serif;
+        font-size:11px;
+        font-weight:bold;
+        background: #D9E1E9;
+        /*background-image: url("../components/images/Button.jpg");*/
+        color: #333399;
+        border-width:1px;
+        border-style:solid;
+        border-color:midnightblue;
+        width:150px;
+        height:22px;
+        cursor:pointer;
+        padding:0px
+}
+
+/**
+ * Style sheet class definitions button mouse move over action
+ */
+
+input.buttonOnMouseOverStyle {
+        font-family:arial,sans-serif;
+        font-size:11px;
+        font-weight:bold;
+        background: #D9E1E9;
+        background-image: url("../images/ButtonReverse.jpg");
+        color: black;
+        border-width:1px;
+        border-style:solid;
+        border-color:gray;
+        width:150px;
+        height:22px;
+        cursor:pointer;
+        padding:0px;
+}
+
+/**
+ * Style sheet for an invisible
+ */
+input.buttonInvisibleStyle {
+        background: white;
+        /*border: 0 0 0;*/
+    border-width: 0 0px 0px;
+    width: 100%;
+    height: 100%;
+}

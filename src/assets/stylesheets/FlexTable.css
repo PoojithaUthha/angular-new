@@ -1,0 +1,65 @@
+.HtmlContentFont {
+	font: 12px tahoma,arial,helvetica,sans-serif;
+}
+
+.FlexTable {
+	border-top: 1px solid #8BB8F3;
+	border-left: 1px solid #8BB8F3;
+	border-right: 1px solid #8BB8F3;
+	border-bottom: 1px solid #8BB8F3;
+}
+
+.FlexTable-Header {
+	background-color: #CDDFFB;
+}
+
+.FlexTable-OddRow {
+	background-color: #cccccc;
+}
+
+.FlexTable-EvenRow {
+	background-color: #505050;
+}
+
+.FlexTable-PriorityRow {
+	background-color: #FF0000;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+.FlexTable-AlertStatusRowBlink {
+	text-align: left;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.FlexTable-AlertStatusRowBlinkOff {
+	text-align: left;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.FlexTable-ColumnLabel {
+	color: white;
+	padding: 3px;
+}
+
+.FlexTable-ColumnLabelCell {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.FlexTable-Cell {
+	border-width: 0px 0px 0px 1px;
+	border-style: solid;
+	border-color: white;
+	padding: 5px;
+}

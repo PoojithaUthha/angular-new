@@ -1,0 +1,31 @@
+.inputPanel {
+	position: relative;
+}
+
+.fileInput {
+	position: relative;
+	text-align: right;
+	filter:alpha(opacity: 0);	
+	opacity: 0;
+	z-index: 2;
+}
+
+.fakePanel {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.progressPanel {
+    border:1px solid #B5B8C8;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.filePanel-fullscreen {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+}

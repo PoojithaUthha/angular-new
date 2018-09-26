@@ -1,0 +1,29 @@
+/**
+ * Style sheet class definitions for HintWidget
+ */
+.HINTLabelStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight:bold;
+	color:#333399;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+}
+
+/**
+ * Style sheet class definitions for Text Widget @ HINTWidget
+ *	background-color: 6495ED; // Corn Flower Blue
+ * 	font-color:#333399;
+ */
+.HINTNoEditTextStyle {
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	font-color:#333399;
+	background:transparent;
+	border-width:0px;
+	height:19px;
+	padding-top:3px;
+	margin-left: 3;
+}

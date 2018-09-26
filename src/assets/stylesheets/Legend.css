@@ -1,0 +1,97 @@
+
+.oweb-legendBar-NoBorder-Style {
+  		border: 1px #8BB8F3 solid;
+	    color: #000000;
+		padding: 0px;
+		font-weight:bold;
+		text-align: left;
+		text-decoration: none;
+		height:2%;
+		background-color: #CDDFFB;
+}
+
+.oweb-legendBar-Style {
+  		border: 0px #8BB8F3 solid;
+	    color: #000000;
+		padding: 0px;
+		font-weight:bold;
+		text-align: left;
+		text-decoration: none;
+		height:2%;
+		background-color:#CDDFFB;
+		cursor:pointer;
+}
+
+.vflipStyle {
+		writing-mode:bt-rl;
+		filter: flipv fliph;
+		/*-webkit-transform: rotate(90deg);*/
+}
+
+.oweb-legendImage-Style {
+	cursor:hand;
+	cursor:pointer;
+}
+
+.oweb-legendImage-Style-opacity {
+	cursor:hand;
+	cursor:pointer;
+  	filter:alpha(opacity=50);
+  	/* CSS3 standard */
+  	opacity:0.5;
+}
+
+.oweb-legendContent-Style {
+  		border: 1px #8BB8F3 solid;
+}
+
+.oweb-legendContent-NoBorder-Style {
+  		border: 0px #7DBACC solid;
+}
+
+.oweb-legendBottomContent-Style {
+	border: 1px #8BB8F3 solid;
+}
+
+.image-close-gray-1 {
+  overflow:hidden;
+  width:14px;
+  height:14px;
+  float:right;
+  cursor:pointer;
+  /*background:transparent url(images/closeButtons.png) no-repeat;*/
+  background-position: 0 0;
+}
+
+.image-close-gray-2 {
+  overflow:hidden;
+  width:14px;
+  height:14px;
+  float:right;
+  cursor:pointer;
+  /*background:transparent url(images/closeButtons.png) no-repeat;*/
+  background-position:-13px 0;
+}
+
+.image-close-gray-3 {
+  overflow:hidden;
+  width:14px;
+  height:14px;
+  float:right;
+  cursor:pointer;
+  /*background:transparent url(../images/closeButtons.png) no-repeat;*/
+  background-position:-27px 0;
+}
+
+.image-close-red {
+  overflow:hidden;
+  width:14px;
+  height:14px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(../images/close.png) no-repeat;
+  background-position:0px 0px;
+}
+
+.cbg-RP { background:#8bd url(../images/bg_header_gradient.gif) repeat-x bottom; }
+

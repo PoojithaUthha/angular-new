@@ -1,0 +1,387 @@
+.oweb-LTGLabel-simple {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+}
+
+.composite_label_container {
+	padding: 0px;
+	border: 0 0 0;
+	margin:0;
+}
+
+.oweb-LTGLabel {
+	font:normal 12px Calibri;
+/*	height:20px;
+*/
+	padding:1px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+}
+
+.oweb-LTGLabel-bold {
+	font:bold 12px tahoma,arial,helvetica,sans-serif;
+/*	height:20px;
+*/	padding:1px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+}
+
+.oweb-LTGLabel-bold-underlined {
+	font:bold 13px Calibri;
+	height:20px;
+	padding:1px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+    text-decoration:underline;
+}
+
+.oweb-LTGLabel-white {
+	color: white;
+	padding: 0px 0px 0px 5px;
+}
+
+.oweb-LTGLabel-blue {
+	color: #1C3E7E;
+}
+
+.oweb-LTGLabel-green {
+	color: #008000;
+	font:normal 13px Calibri;
+}
+
+.oweb-LTGLabel-bold20 {
+	font:bold 20px tahoma,arial,helvetica,sans-serif;
+}
+
+.oweb-LTGLabel-boldblue {
+	color: #1C3E7E;
+	font:bold 13px tahoma,arial,helvetica,sans-serif;
+}
+
+.oweb-LTGLabel-boldred {
+	color: red;
+	font:bold 13px tahoma,arial,helvetica,sans-serif;
+}
+
+.oweb-LTGText {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+    border:1px solid #B5B8C8;
+	height:18px;
+	padding-top:1px;
+	margin-left:3;
+    padding:1px 3px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-LTGText-NoBorder {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+ 	height:16px;
+	padding-top:1px;
+	margin-left:3;
+    padding:1px 3px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-LTGLabel-ReadOnly {
+	font:normal 12px Calibri;
+	color:gray;
+	height:16px;
+	padding:1px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;       
+}
+
+.oweb-LTGText-NoMargin {
+	font:normal 11px tahoma,verdana,helvetica;
+    border:1px solid #B5B8C8;
+	height:16px;
+	padding-top:1px;
+	margin-left:0px;
+    padding:1px 3px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-LTGText-focus {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;;
+	border:1px solid #7eadd9;
+	margin-left:3;
+}
+
+.oweb-LTGText-highlight {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;;
+	border:1px solid #7eadd9;
+	margin-left:3;
+}
+
+.oweb-LTGIndicator {
+	font:bold 11px tahoma,verdana,helvetica;
+	color:#FF3300;
+	height:16px;	
+	border: 0 0 0;
+	padding-top:0px;
+}
+
+.oweb-LTGLink {
+	font:normal 10px tahoma,verdana,helvetica;
+	color:#333399;
+	margin-left:3;
+	align: top;
+}
+
+.oweb-LTGText-NoEdit {
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	font-color:#333399;
+	background:transparent;
+	border-width:0px;
+	height:16px;
+	margin-left: 3;
+}
+
+.oweb-LTGText-readonly {
+	border-width:1px;
+}
+
+.oweb-LTGList {
+  border: 1px solid gray;
+  background-color: #F2F8FF;
+}
+
+
+.oweb-LTGListBoxContainer  td {
+	text-align:center;
+}
+
+.scrollpanelStyle {
+	border-top:1px solid #B5B8C8;
+	border-left:1px solid #B5B8C8;
+	border-right:1px solid #B5B8C8;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+    padding-top:5px;
+    width:100%;
+    height:160px;
+    text-align:left;
+}
+
+.scrollpanelStyle .IteamContainer {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.scrollpanelStyle .IteamContainer td {
+	text-align:left;
+}
+
+.scrollpanelStyle .IteamContainer .item {
+    padding: 2px;
+    font:normal 12px tahoma,arial,helvetica,sans-serif;
+}
+
+.scrollpanelStyle .IteamContainer .selected-item {
+	border:0px solid #8BB8F3;	
+	background:#CDDFFB;
+}
+
+.oweb-LTG-PaginationStyle .page-first {
+ 	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;	  
+ 	  background-image:url(./images/page-first.gif);
+ 	  background-color: rgb(208, 222, 240);
+};
+
+.oweb-LTG-PaginationStyle .page-last {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(./images/page-last.gif);
+ 	  background-color: rgb(208, 222, 240);
+};
+
+.oweb-LTG-PaginationStyle .page-next {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;	  
+ 	  background-image:url(./images/page-next.gif);
+ 	  background-color: rgb(208, 222, 240);
+};
+
+.oweb-LTG-PaginationStyle .page-prev {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;	  
+ 	  background-image:url(./images/page-prev.gif);
+ 	  background-color: rgb(208, 222, 240); 	   
+ };
+
+.oweb-LTG-PaginationStyle .page-first-disable {
+ 	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;	  
+ 	  background-image:url(./images/page-first-disabled.gif);
+ 	  background-color: rgb(208, 222, 240);
+ };
+
+.oweb-LTG-PaginationStyle .page-last-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(./images/page-last-disabled.gif);
+ 	  background-color: rgb(208, 222, 240);
+ };
+
+.oweb-LTG-PaginationStyle .page-next-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;	  
+ 	  background-image:url(./images/page-next-disabled.gif);
+ 	  background-color: rgb(208, 222, 240); 	  
+};
+
+.oweb-LTG-PaginationStyle .page-prev-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+	  background-color: rgb(208, 222, 240);  
+ 	  background-image:url(./images/page-prev-disabled.gif); 	  
+};
+
+.oweb-LTG-PaginationStyle .page-label {
+	font:normal 9px tahoma,arial,helvetica,sans-serif;
+	white-space:nowrap;
+ };
+
+.oweb-LTG-PaginationStyle .textbox {
+	font:normal 9px tahoma,arial,helvetica,sans-serif;
+    border:1px solid #B5B8C8;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;	
+}
+
+.oweb-LTG-PaginationStyle .textbox-focus{
+	font:normal 9px tahoma,arial,helvetica,sans-serif;	
+	border:1px solid #7eadd9;	
+}
+
+.oweb-LTG-PaginationStyle  {
+ 	border:1px solid #B5B8C8;
+ 	height:18px;
+ 	width:100%;		
+	align:center;	
+  	background-color: rgb(208, 222, 240);
+  	background-image: url(./images/bg.gif);
+  	background-repeat: repeat-x;	
+};
+  
+.oweb-LTG-PaginationStyle td { 
+	width:3px;
+	height:1px;
+	text-align:center;
+};
+
+.oweb-LTG-PaginationStyle .Container td{
+	text-align:center;
+} 
+
+.oweb-LTGLabel-fieldSet {
+	font:bold 12px Calibri;
+}
+
+.oweb-LTGLabel-small {
+	font:normal 13px Calibri;
+	height:18px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+}
+
+.oweb-LTGLabel-small a:link    {color : #0000aa; border: 1px solid transparent;}
+.oweb-LTGLabel-small a:visited {color : #0000aa; border: 1px solid transparent;}
+.oweb-LTGLabel-small a:hover {
+	color : black; 
+	text-decoration: none;
+	background-color:#ebf3fd;
+	border:1px solid #aaccf6;
+}
+
+.oweb-LTGLabel-ImageLinkWidget {
+	font:normal 12px Calibri;
+	height:20px;
+	padding:3px 1px 0px 1px; 
+	white-space:nowrap;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+    cursor : pointer;
+}
+
+.oweb-LTGLabel-ImageLinkWidget a:link    {color : #0000aa; border: 1px solid transparent;}
+.oweb-LTGLabel-ImageLinkWidget a:visited {color : #0000aa; border: 1px solid transparent;}
+.oweb-LTGLabel-ImageLinkWidget a:hover {
+	color : black; 
+	text-decoration: none;
+	background-color:#ebf3fd;
+	border:1px solid #aaccf6;
+}
+
+
+.oweb-LTGLabel-ImageLinkWidget-a {
+	font:normal 12px Calibri;
+	height:20px;
+	padding:3px 1px 0px 1px; 
+	white-space:nowrap;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+ }
+
+.oweb-LTGLabel-ImageLinkWidget-a a:link {
+	color : black; 
+	border: 1px solid transparent;
+	text-decoration: none;
+}
+
+.oweb-LTGLabel-ImageLinkWidget-a a:visited {
+	color : black; 
+	border: 1px solid transparent;
+	text-decoration: none;
+}
+
+.oweb-LTGLabel-ImageLinkWidget-a a:hover {
+	color : black; 
+	text-decoration: none;
+	background-color:#ebf3fd;
+	border:1px solid #aaccf6;
+}
+.oweb-LTGLabel-warning {
+	font:bold 13px tahoma,arial,helvetica,sans-serif;
+	color: red;
+	padding:1px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+    text-align:center;
+}
+.oweb-BulkUpload-bold-underlined {
+	font:bold 14px tahoma,arial,helvetica,sans-serif;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;	
+    text-align:center;
+    padding-top:3px;
+    padding-left:3px;
+    padding-right:3px;
+    padding-down:3px;
+}
+.oweb-BulkUpload-ReadOnly {
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	font-color:#333399;
+	border: 1px solid gray;
+  	background-color: #D3D3D3;	
+	height:16px;
+	  
+}

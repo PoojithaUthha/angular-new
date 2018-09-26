@@ -1,0 +1,57 @@
+/**
+ * Contains the style sheets for the application header frame
+ */
+
+.bodyStyle {
+	background-repeat: no-repeat;
+}
+
+.systemStyle {
+	color: #000066;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+.applicationHeaderLabelStyle {
+	color: black;
+	text-color: black;
+	font-family:verdana;
+	font-size:9px;
+}
+
+.applicationHeaderDataStyle {
+	color: #0000AA;
+	font-family:ms-serif;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.applicationHeaderDataStyle1 {
+	color: #103494;
+	text-color: #9CB6E7;
+	font-family:verdana;
+	font-size:12px;
+}
+
+.applicationNameStyle {
+	color: #000066;
+	text-color:black;
+	font-size:13px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+.titleStyle {
+	color: #0000AA;
+	font-family:ms-serif;
+	font-size:14px;
+	font-weight: bold;
+}
+.helpStyle {
+	font-family:verdana;
+	font-size: 12px;
+	font-weight:bold;
+	color:red;
+}
+

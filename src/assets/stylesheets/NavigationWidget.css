@@ -1,0 +1,25 @@
+.oweb-NagivationWig-Panel {
+	padding: 0px 2px 0px 0px;
+	color:black;
+}
+.oweb-NagivationWig-Panel-white {
+	color:white;
+}
+.oweb-NagivationWig-Panel td {
+	text-align:left;
+	white-space:nowrap;
+}
+.oweb-NagivationWig-Panel .separator {
+	font:normal 11px arial,helvetica,sans-serif;
+}
+.oweb-NagivationWig-Panel .link {
+	cursor: pointer;
+}
+.oweb-NagivationWig-Panel .link .label{
+	font:normal 11px arial,helvetica,sans-serif;
+	text-decoration:none;
+}
+.oweb-NagivationWig-Panel .link .labelmouseOver {
+	font:normal 11px arial,helvetica,sans-serif;
+	text-decoration:underline;
+}

@@ -1,0 +1,33 @@
+.search-criteria-scroll-panel {
+/*	border: 1px solid #8BB8F3; */
+}
+
+.search-criteria-vertical-panel {
+	position: absolute;
+	left: 1px;
+	padding: 2px;
+}
+
+.search-criteria-normal {
+	color: black;
+	font: 11px verdana,helvetica,tahoma;
+	padding-right: 4px;
+}
+
+.search-criteria-name {
+	color: green;
+	font: 11px verdana,helvetica,tahoma;
+	padding-right: 4px;
+}
+
+.search-criteria-operator {
+	color: red;
+	font: 11px verdana,helvetica,tahoma;
+	padding-right: 4px;
+}
+
+.search-criteria-value {
+	color: blue;
+	font: 11px verdana,helvetica,tahoma;
+	padding-right: 4px;
+}

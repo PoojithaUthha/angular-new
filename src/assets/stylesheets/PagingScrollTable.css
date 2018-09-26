@@ -1,0 +1,768 @@
+/*
+ * ScrollTable
+ */
+.gwt-ScrollTable {
+	border-color: #e0e0e0;
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	margin: 0;
+}
+
+.gwt-ScrollTable .headerWrapper {
+	background: #8bd url(./images/bg_header_gradient.gif) repeat-x bottom
+		left;
+}
+
+.gwt-ScrollTable .footerWrapper {
+	border-top: 1px solid #e0e0e0;
+	background: #8bd url(./images/bg_header_gradient.gif) repeat-x bottom
+		left;
+}
+
+.gwt-ScrollTable .dataTable td,.gwt-ScrollTable .footerTable td {
+	font-family: book antiqua, tahoma, arial, sans-serif;
+	font-size: 11px;
+	padding: 0;
+	border-color: #e0e0e0;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding-left: 2px;
+	white-space: normal;
+	overflow: hidden;
+}
+
+.gwt-ScrollTable .dataTable td.edit {
+	font-family: book antiqua, tahoma, arial, sans-serif;
+	font-size: 11px;
+	padding: 0;
+	border-color: #e0e0e0;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.gwt-ScrollTable .dataTable td.edited {
+	text-decoration: underline;
+	color: red;
+}
+
+/* header font and background image */
+.gwt-ScrollTable .headerTable td {
+	font: bold 11px book antiqua, tahoma, arial, sans-serif;
+	align: center;
+	padding: 0;
+	border-color: #e0e0e0;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding-left: 2px;
+	white-space: nowrap;
+	overflow: visible;
+	background: rgb(249, 249, 249);
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .footerTable td {
+	border-bottom-color: #dce7f3;
+}
+
+.gwt-ScrollTable .dataTable tr.highlighted { /*background: #C3D9FF;*/
+	
+}
+
+.gwt-ScrollTable .dataTable td.highlighted { /*background: #FFFFAA;
+  cursor: hand;
+  cursor: pointer;*/
+	
+}
+
+/* grid select row */
+.gwt-ScrollTable .dataTable tr.selected td { /*background: #eef9d7;*/
+	background: url(./images/item-over.gif) repeat-x rgb(235, 243, 253);
+}
+
+.gwt-ScrollTable .headerTable td .headerPanelstyle {
+	border-width: 0px 0px 0px 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding: 0px 0px 0px 0px;
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .headerTable td .headerPanelstyle td {
+	border-width: 0px 0px 0px 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding: 0px 0px 0px 0px;
+	white-space: normal;
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .headerTable td .headerPanelstyleArrow td {
+	border-width: 0px 0px 0px 0px;
+	padding-right: 15px;
+	background-image: url(./images/menu-parent.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	white-space: normal;
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .headerTable td .headerPanelstyleArrow2 td {
+	border-width: 0px 0px 0px 0px;
+	padding-right: 15px;
+	background-image: url(./images/menu-parent2.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .headerTable td .headerPanelstyle2 td {
+	border-width: 0px 0px 2px 0px;
+	border-color: red;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding-right: 15px;
+	-webkit-user-select: none;
+}
+
+.gwt-ScrollTable .dataTable .headerPanelstyle {
+	border-width: 0px 0px 0px 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding: 0px 0px 0px 0px;
+	cursor: hand;
+}
+
+.gwt-ScrollTable .dataTable td .headerPanelstyle td {
+	border-width: 0px 0px 0px 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.gwt-ScrollTable .dataTable.NoMargin td
+{
+  font-family: 'segoe ui', tahoma, arial, sans-serif;
+  font-size: 11px;	
+  padding: 0;
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  padding-left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.oweb-Table {
+	margin: 0;
+}
+
+.oweb-Table td {
+	border-color: #99bbe8;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+}
+
+.oweb-Table-RowColor1 {
+	background-color: white;
+}
+
+.oweb-Table-RowColor3 {
+	background-color: #edf2f8;
+}
+
+.oweb-Table-SubRowColor {
+	background-color: #f5fde3;
+}
+
+.gwt-ScrollTable .dataTable.NoBorder td {
+	border: 0;
+}
+
+.gwt-ScrollTable .dataTable td.BigBorder {
+	border-color: #99bbe8;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	background-color: white;
+}
+
+.gwt-ScrollTable .dataTable td.BigBorder .td {
+	border: 0;
+}
+
+.gwt-ScrollTable .dataTable td.GroupHeader {
+	font-weight: bold;
+	color: blue;
+}
+
+/* grid alternate row color */
+.oweb-Table-RowColor2 { /*background-color: #e9e9ff;*/
+	background-color: rgb(250, 250, 250);
+}
+
+.oweb-Table-RowColor2 { /*background-color: #e9e9ff;*/
+	background-color: rgb(250, 250, 250);
+}
+
+.oweb-Table-RowColor-selected {
+	background-color: rgb(255, 240, 176);
+}
+
+.oweb-Table-Footer-Input {
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 1px solid #B5B8C8;
+	height: 20px;
+	padding-top: 1px;
+	margin-left: 3px;
+	background: #fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-Table-Footer-TableSearch {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	padding-top: 7px;
+	margin-left: 3px;
+	height: 23px;
+}
+
+.oweb-Table-Footer-Status {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	padding-top: 7px;
+	padding-left: 15px;
+	margin-left: 3px;
+	height: 23px;
+}
+
+.oweb-Table-Footer-Page-Status {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	margin-left: 3px;
+	padding-top: 4px;
+	height: 23px;
+}
+
+.oweb-Table-Footer-Row-Status {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	margin-left: 3px;
+	padding-top: 4px;
+	padding-left: 5px;
+	height: 23px;
+}
+
+.oweb-Table-Popup {
+	border: 1px solid rgb(113, 139, 183);
+	padding: 2px;
+	background: url(./images/menu.gif) repeat-y rgb(240, 240, 240);
+}
+
+.oweb-Table-Popup2 {
+	border: 0;
+	padding: 0px;
+}
+
+.oweb-Table-Popup-Scroll {
+	border: 1px solid rgb(113, 139, 183);
+	padding: 0px; 
+	background: url(./images/menu.gif) repeat-y rgb(240, 240, 240);
+}
+
+.oweb-Table-Popup-Item {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 80%;
+	height: 25px;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.oweb-Table-Popup-Item-Red {
+	color: red;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.oweb-Table-Popup-Item-Over {
+	background-color: rgb(235, 243, 253);
+	background-image: url(./images/item-over.gif);
+	background-repeat: repeat-x;
+}
+
+.oweb-Table-Icon {
+	padding: 0px 2px 0px 0px;
+	border-color: threedhighlight threeddarkshadow threeddarkshadow threedhighlight;
+	cursor: hand;
+}
+
+.oweb-Table-Icon-First {
+	padding: 0px 2px 0px 15px;
+}
+
+.oweb-Table-Image {
+	background: transparent;
+	cursor: hand;
+}
+
+.oweb-List-Image {
+	background: transparent;
+	cursor: hand;
+}
+
+.oweb-Table-Header td {
+	border-width: 0px 0px 0px 0px;
+	background-color: rgb(208, 222, 240);
+	background-image: url(./images/bg.gif);
+	background-repeat: repeat-x;
+}
+
+.oweb-Table-Footer td {
+	border-width: 0px 0px 0px 0px;
+	background-color: rgb(208, 222, 240);
+	background-image: url(./images/bg.gif);
+	background-repeat: repeat-x;
+}
+
+.oweb-Table-Menu-Parent {
+	/*background:transparent url(images/button_stretch.png) repeat-x;*/
+	font: normal 11px tahoma, verdana, helvetica;
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+	height: 21px;
+	background-image: url(./images/menu-parent.gif);
+	background-repeat: no-repeat;
+	width: 200px;
+	color: black;
+	text-decoration: none;
+	background-position: center right;
+}
+
+.oweb-Table-Menu-Item {
+	font: normal 11px tahoma, verdana, helvetica;
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+	height: 21px;
+	background-repeat: no-repeat;
+	width: 200px;
+	color: black;
+	text-decoration: none;
+	background-position: center right;
+}
+
+.oweb-Table-Menu-Item-Disabled {
+	color: #adadad;
+}
+
+.oweb-Table-Menu-Icon {
+	background-position-x: 50%;
+	background-position-y: 50%;
+	border: 0px none;
+	height: 16px;
+	margin: 3px 10px 0px 0px;
+	padding: 0px;
+	vertical-align: top;
+	width: 16px;
+}
+
+.oweb-Table-Popup-Sample {
+	background-color: #f0f0f0;
+	border-color: #718bb7;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+}
+
+.oweb-Table-Popup-Sample2 {
+	background: transparent;
+	border: 1px solid #e0e0e0;;
+	-webkit-user-select: none;
+}
+
+.oweb-Table-Popup-Item-Sample {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	height: 20px;
+}
+
+.oweb-Table-Header {
+	text-decoration: none;
+	color: black;
+	-webkit-user-select: none;
+}
+
+.oweb-Table-Header-Over {
+	text-decoration: underline;
+	color: green;
+	cursor: hand;
+	-webkit-user-select: none;
+}
+
+.oweb-Table-Bulk_Update_Popup {
+	border: 1px solid rgb(113, 139, 183);
+	padding: 2px;
+	background: rgb(240, 240, 240);
+}
+
+.oweb-Table-Popup-Sep {
+	background-color: rgb(224, 224, 224);
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	display: block;
+	font-family: arial;
+	font-size: 1px;
+	height: 2px;
+	line-height: 1px;
+	margin-bottom: 2px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 2px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	width: 100%;
+}
+
+.oweb-Table-Header-Link {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	padding-top: 5px;
+	margin-left: 3px;
+	height: 23px;
+	cursor: hand;
+}
+.oweb-Email-Attachment-Link {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: red;
+	height: 20px;
+	cursor: hand;
+	width: 550px;
+}
+.oweb-Email-Attachment-Link2 {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: blue;
+	height: 20px;
+	cursor: hand;
+}
+.oweb-Email-Attachment-Link3 {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #ffb354;
+	height: 20px;
+	cursor: hand;
+}
+.oweb-Email-Attachment-Link-Green {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: green;
+	height: 20px;
+	cursor: hand;
+}
+.oweb-Email-Reply {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: green;
+	margin: 0 0 0 15px;
+}
+.oweb-Table-Edit-Link {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #e6bf64;
+	padding-top: 7px;
+	margin-left: 3px;
+	height: 23px;
+	cursor: hand;
+}
+
+.oweb-Table-Edit-Input {
+	font:normal 11px tahoma,verdana,helvetica;
+    border:1px solid #B5B8C8;
+	height:20px;
+	padding-top:3px;
+	padding-left:2px;
+	margin-left:0px;
+    width: 114px;
+    color: red;
+    height: 20px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+.oweb-Table-Edit-Subject {
+	font:normal 11px tahoma,verdana,helvetica;
+    border:1px solid #B5B8C8;
+	height:20px;
+	padding-top:3px;
+	padding-left:2px;
+	
+	margin-left:0px;
+    width: 194px;
+    color: green;
+    height: 20px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-Table-Header-Caption {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: black;
+	padding-top: 3px;
+	margin-left: 3px;
+	height: 23px;
+	cursor: hand;
+	width: 100px;
+}
+
+.oweb-Table-Header-Caption2 {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: red;
+	padding-top: 3px;
+	margin-left: 3px;
+	height: 15px;
+	cursor: hand;
+	width: 100px;
+}
+
+.oweb-Table-Header-Link1 {
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: lightyellow;
+	padding-top: 5px;
+	margin-left: 3px;
+	height: 23px;
+	cursor: hand;
+}
+
+.oweb-Table-Header-Link-Red{
+	text-decoration: underline;
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: red;
+	padding-top: 7px;
+	margin-left: 3px;
+	height: 23px;
+	cursor: hand;
+}
+
+.oweb-Table-Header-Icon {
+	cursor: hand;
+	margin-top: 2px;
+}
+.oweb-Message-Box {
+	width  : 420px;
+	HEIGHT : 30px;
+	BACKGROUND : lightyellow;
+	COLOR 	: #000000;
+	BORDER 	: 1px solid;
+	PADDING : 5px;
+	FONT 	: 13px verdana;
+	z-index	: 2;
+}
+.oweb-Message-Box2 {
+	width  : 420px;
+	HEIGHT : 30px;
+	BACKGROUND : lightyellow;
+	COLOR 	: #000000;
+	BORDER 	: 1px solid;
+	PADDING : 5px;
+	FONT 	: 13px verdana;
+	z-index	: 2;
+}
+.oweb-Table-Filter{
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: red;
+	margin-left: 1px;
+	height: 15px;
+	cursor: hand;
+}
+.oweb-Table-FilterHeader{
+	font: normal 9px tahoma, arial, sans-serif;
+	color: red;
+	cursor: hand;
+
+	width: 100%;
+	BACKGROUND : lightyellow;
+}
+.oweb-Table-FilterHeader2{
+	font: normal 9px tahoma, arial, sans-serif;
+	color: green;
+	cursor: hand;
+
+	width: 100%;
+	BACKGROUND : lightyellow;
+}
+
+.oweb-Email-Popup {
+	background: lightyellow;
+}
+
+.oweb-Menu-Popup-Item {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 80%;
+	height: 25px;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.oweb-Note-Popup {
+	color: green;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 80%;
+	height: 25px;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 0px;
+	width: 100px;
+}
+
+.oweb-EmailList-Popup {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 80%;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 0px;
+	width: 300px;
+	height: 100%;
+}
+
+.oweb-Menu-Popup-Item-Over {
+	background-color: rgb(235, 243, 253);
+}
+
+.oweb-Table-Header-Input {
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 1px solid #B5B8C8;
+	height: 20px;
+	padding-top: 1px;
+	margin-left: 3px;
+	margin-top: 1px;
+	background: #fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-Table-Header-TableSearch {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	padding-top: 7px;
+	margin-left: 3px;
+	height: 23px;
+}
+
+.oweb-Table-File-Size {
+	font-weight: bold;
+	font: normal 11px tahoma, verdana, helvetica;
+	border: 0;
+	color: #226099;
+	padding-top: 7px;
+	margin-left: 3px;
+	height: 23px;
+	width: 100px;
+}
+
+.already-in-oweb-Table-Header td {
+	border-width: 0px 0px 0px 0px;
+	background: transparent;
+	height: 23px;
+}
+.gwt-ScrollTable .headerTable td .headerPanelstyleHigh td {
+	
+	border-width: 0px 0px 2px 0px;
+	border-color: green;
+	white-space: normal;
+	-webkit-user-select: none;
+	
+}

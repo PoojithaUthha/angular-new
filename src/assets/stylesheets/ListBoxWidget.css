@@ -1,0 +1,293 @@
+.oweb-ListBox-ContainerPanel {
+    border: 0px;
+    padding: 0;
+}
+
+/** common layout cell styles */
+.oweb-ListBox-ContainerPanel td {
+    border:0px solid #89a;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.oweb-ListBox-ContainerPanel .textbox {
+	height:16px;
+	line-height:16px;
+	vertical-align:top;
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+    border:1px solid #B5B8C8;
+    background:#fff url(../images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-ListBox-ContainerPanel .textbox-readonly {
+	background:#fff url(../images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage-over {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+	background-position:-17px 0;
+}
+
+.oweb-ListBox-ContainerPanel .ComboImage-Click {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+	background-position:-34px 0;
+}
+
+
+.oweb-ListBox-ContainerPanel-focus {
+
+}
+
+.oweb-ListBox-ContainerPanel-focus .textbox {
+	height:16px;
+	line-height:16px;
+	vertical-align:top;
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+    border:1px solid #8BB8F3;
+    background:#fff url(../images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-ListBox-ContainerPanel-focus .ComboImage {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+	background-position:-51px 0;
+}
+
+.oweb-ListBox-ContainerPanel-focus .ComboImage-over {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+	background-position:-68px 0;
+}
+
+.oweb-ListBox-ContainerPanel-focus .ComboImage-Click {
+ 	width:17px;
+	height:19px;
+	border:0;
+	vertical-align:top;
+	background:transparent url(../images/combo/trigger.gif) no-repeat 0 0;
+	cursor:pointer;
+	border-bottom:1px solid #B5B8C8;
+	background-position:-85px 0;
+}
+
+
+
+
+
+/*********************
+ * Additional Combo box styles
+ */
+
+/** popup panel styles */
+.oweb-ListPopupPanel {
+    border:1px solid #8BB8F3;
+    background-color: white;
+    padding: 0;
+    position: relative;
+	z-index: 3;
+}
+
+/** items list style */
+.oweb-ListPopupPanel .list {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+/** items list selected row style */
+.oweb-ListPopupPanel .list .selected-row {
+	border:0px solid #8BB8F3;
+	padding: 0px;
+	background:#CDDFFB;
+}
+
+/** item style **/
+.oweb-ListPopupPanel .list .item {
+    padding: 2px;
+    font:normal 12px tahoma,arial,helvetica,sans-serif;
+}
+
+.oweb-ListPopupPanel .list .mRowStyle{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+/** items list selected row style */
+.oweb-ListPopupPanel .list .mRowStyle .itemNoboder {
+    font:normal 12px tahoma,arial,helvetica,sans-serif;
+    border-right:0px solid #B5B8C8;
+}
+
+/** item style **/
+.oweb-ListPopupPanel .list .mRowStyle .item {
+    font:normal 12px tahoma,arial,helvetica,sans-serif;
+	border-right:1px solid #B5B8C8;
+}
+
+/** items list selected row style */
+.oweb-ListPopupPanel .list .mselected-row {
+	background:#CDDFFB;
+}
+
+.oweb-ListBox-LabelStyle {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+	padding:0px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+    width:auto;
+    -moz-outline:0 none;
+    outline:0 none;
+ }
+
+ .oweb-ListBox-LabelStyle-disable {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+	color:gray;
+	padding:0px;
+	border: 0 0 0;
+    margin:0;
+    overflow:visible;
+    width:auto;
+    -moz-outline:0 none;
+    outline:0 none;
+}
+
+ .oweb-ListPopup-PaginationStyle .page-first {
+ 	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-first.gif);
+ };
+
+.oweb-ListPopup-PaginationStyle .page-last {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-last.gif);
+ };
+
+.oweb-ListPopup-PaginationStyle .page-next {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-next.gif);
+ };
+
+
+.oweb-ListPopup-PaginationStyle .page-prev {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-prev.gif);
+ };
+
+.oweb-ListPopup-PaginationStyle .page-first-disable {
+ 	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-first-disabled.gif);
+ };
+
+.oweb-ListPopup-PaginationStyle .page-last-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-last-disabled.gif);
+ };
+
+.oweb-ListPopup-PaginationStyle .page-next-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-next-disabled.gif);
+ };
+
+
+.oweb-ListPopup-PaginationStyle .page-prev-disable {
+	  border:0px;
+	  background-position:0 2px;
+	  background-repeat:no-repeat;
+ 	  background-image:url(../images/page-prev-disabled.gif);
+ };
+
+
+.oweb-ListPopup-PaginationStyle .page-label {
+	font:normal 9px tahoma,arial,helvetica,sans-serif;
+	white-space:nowrap;
+ };
+
+.oweb-ListPopup-PaginationStyle .textbox {
+	font:normal 9px tahoma,arial,helvetica,sans-serif;
+    border:1px solid #B5B8C8;
+    background:#fff url(../images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-ListPopup-PaginationStyle .textbox-focus{
+	font:normal 9px tahoma,arial,helvetica,sans-serif;
+	border:1px solid #7eadd9;
+}
+ .oweb-ListPopup-PaginationStyle  {
+ 	border:1px solid #8BB8F3;;
+ 	height:18px;
+	width:100%;
+	background-color: #D0D0D0;
+	align:center;
+ };
+
+.oweb-ListPopup-PaginationStyle td {
+	width:3px;
+	height:1px;
+	text-align:center;
+};
+
+.oweb-ListPopup-PaginationStyle .Container td{
+	text-align:center;
+}
+
+.oweb-MultiSelectContainer {
+	border:1px solid #B5B8C8;
+}
+
+.oweb-MultiSelectListBox {
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+	padding:1px;
+    background:#fff url(../images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-MultiSelectContainerFocus  {
+	border:1px solid #8BB8F3;
+}
+

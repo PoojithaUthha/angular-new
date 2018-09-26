@@ -1,0 +1,206 @@
+.actualTableStyle {
+	display: inline;
+	/*background-color: black;*/
+	/*background-color: #226099;*/
+	background-color: #dce7f3;
+	width: 100%;
+	/*border-bottom: medium none;*/
+	border-color: threeddarkshadow threedhighlight threedhighlight threeddarkshadow;
+	/*filter:progid:DXImageTransform.Microsoft.Shadow(color='threedshadow', Direction=135, Strength=4);*/
+	padding: 0;
+	/*border-collapse: collapse;*/
+}
+
+.cellDivStyle {
+	position: relative; /* for z-index to work */
+	overflow-y: hidden; /* for auto-size, overflow:hidden is 30% faster */
+	height: 22px;
+	width: 100%;
+	vertical-align: top;
+	border-width: 2px;
+	border-style: solid;
+	border-color: threedhighlight threeddarkshadow threeddarkshadow threedhighlight;
+	background-color: grey;
+	padding-left: 2px;
+}
+
+
+/**
+ * Style sheet class for fixed header <div> container
+ */
+.fixedHeaderDivContainerStyle {
+	position: absolute;
+	background-color: #226099;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	z-index: 100;
+}
+
+
+/**
+ * Fixed header table style
+ */
+.fixedHeaderTableStyle {
+	width: 100%;
+	/*height: 100%;*/
+	/*background-color: #226099;*/
+	/*border-bottom: medium none;*/
+}
+
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+thead.tableHeaderNormalStyle {
+	/*background-color: a96768;*/
+	/*background-color: #226099;*/
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:11px;
+	/*border-right: 1px solid threedlightshadow;
+	border-left: 1px solid threedlightshadow;
+	*/
+}
+
+
+/**
+ * Style sheet classes corresponding to a <TBODY> table body tag
+ */
+tbody.tableBodyNormalStyle {
+	/*background-color: e2c2a3;*/
+	background-color: white;
+	color: black;
+	border: 1px solid threedlightshadow;
+	font-family: sans-serif;
+	font-size: 11px;	
+	padding: 0;
+}
+
+td.tableHeaderCellStyle {
+	border-bottom-color: #dce7f3;
+	border-bottom: 1px solid threedlightshadow;
+	border-right-color: #dce7f3;
+	border-right: 1px solid threedlightshadow;
+	position: relative;
+	background-color: #dce7f3;
+}
+
+/**
+ * Style sheet classes corresponding to a <TR> table row tag
+ */
+tr.rowNormalStyle {
+	/*background-color: e2c2a3;*/
+	background-color: white;
+	color: black;
+	border-bottom: 1px solid threedlightshadow;
+}
+
+.cellNormalStyle {
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+	/*border-left: 1px solid threedlightshadow;*/
+	padding: 2px;
+}
+
+.cellNormalStyleNoWrap {
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+	white-space: nowrap;
+	padding: 2px;
+}
+.cellEditableStyle {
+        color: #006633;^M
+        text-decoration: none;^M
+}
+
+
+
+tr.rowSelectStyle {
+	/*-color: bfa696;*/
+	background-color: #99ccff;
+}
+
+
+/**
+ * Generic Style sheet class definitions
+ */
+.onmouseoverStyle {
+	/*background-color: bfa696;*/
+	background-color: #99ccff;
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+	/*border-left: 1px solid threedlightshadow;*/
+	padding: 2px;
+}
+
+
+.actualTableContainerStyle {
+	width: 100%;
+	/* Do not change this to 100%. Otherwise, resizing the window will result in the table size
+	   (height) getting extended */
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: scroll;
+	//background-color:#F0F0F0;
+	background-color:#F9FDFF;
+}
+
+.bodyContainerDivStyle {
+	border: 2px inset;
+	background: white;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+/**
+ * Row Count attributes
+ */
+.rowCountStyle {
+	font-weight: bold;
+	font-family: arial-black;
+	font-size: 9px;	
+	color: #226099;
+}
+
+
+/**
+ * Header link style
+ */
+.headerLinkStyle {
+	color: #333399;
+	text-decoration: none;
+}
+
+
+/**
+ * Export to excel style
+ */
+.exportToExcelStyle {
+	font-family:arial;
+	font-size: 8px;
+	font-weight:bold;
+	color:#333399;
+	margin-left:3;
+	border:0;
+	cursor:hand;
+}
+
+/**
+ * Current page number style
+ */
+.currentPageNumberStyle {
+	font-family:arial;
+	font-size: 11px;
+	font-weight:bold;
+	background:#ffffff;
+	color:#333399;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+	width: 25;
+}

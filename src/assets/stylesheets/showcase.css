@@ -1,0 +1,193 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.oweb-Panel {
+	background-color:#DFE8F6;
+	border-width:0px;
+    font:normal 11px tahoma,verdana,helvetica;
+    cursor:default;
+}
+
+.oweb-Panel-white {
+	background-color:white;
+}
+
+.oweb-Panel .oweb-Panel-left {
+    padding-left:10px;
+}
+
+.oweb-Header-Panel {
+	/* extgwt header panel color */
+	background-color:#1C3E7E;
+	border-width:0px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid;
+	border-left-style:none;
+	border-color:gray;
+    font:normal 12px tahoma,verdana,helvetica;
+    cursor:pointer;
+}
+
+.oweb-Header-Panel-default {
+	background-color:white;
+	border-bottom: 1px solid #7aa5d6;
+	font:normal 11px tahoma,verdana,helvetica;
+}
+
+.oweb-Header-Font {
+	padding-right:20px;
+    font:bold 14px tahoma,verdana,helvetica;
+	color:white;
+}
+
+.oweb-Header-Font-default {
+	padding-right:20px;
+    font:bold 14px tahoma,verdana,helvetica;
+	color:black;
+}
+
+.oweb-Header-Font-username {
+    font:normal 12px tahoma,verdana,helvetica;
+	color:#1C3E7E;
+}
+
+.oweb-Header-Font-groupname {
+    font:italic 11px Calibri;
+	color:#1C3E7E;
+}
+
+.oweb-Header-Font-portal {
+    font:normal 18px verdana;
+	color:#000066;
+}
+
+.oweb-Navigation-Panel {
+	/* extgwt panel color */
+	background-color:#DFE8F6;
+	border-width:0px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid;
+	border-left-style:none;
+	border-color:none;
+	padding-top: 5px;
+    font:normal 11px tahoma,verdana,helvetica;
+    cursor:pointer;
+}
+
+.oweb-Application-Panel {
+	/* entitlement manager panel color */
+	background-color:#F2F8FF;
+	border-width:0px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-color:gray;
+	padding-top: 5px;
+    font:normal 11px tahoma,verdana,helvetica;
+    cursor:pointer;
+}
+
+.oweb-Application-Panel-seperator {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7aa5d6;
+  font:normal 11px tahoma,verdana,helvetica;
+}
+
+.oweb-QuickSearch-blue {
+	background-color:#F2F8FF;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #aaccf6;
+}
+
+.oweb-Panel-white-border1 {
+	background-color:white;
+	border:1px solid #aaccf6;
+}
+
+.oweb-Table-border1 table {
+	border:1px solid #aaccf6;
+}
+
+.hsplitter {
+   cursor: move;
+   /*background:#fff url(/images/inline-splitter-bg.gif) repeat-x 0 0;*/
+   width: 0px;
+}
+.toolTipPanel {
+	font:normal 11px tahoma,verdana,helvetica;
+    border:1px solid #B5B8C8;
+	height:20px;
+	padding-top:1px;
+	margin-left:3;
+    padding:1px 3px;
+    background:#fff url(./images/text-bg.gif) repeat-x 0 0;
+}
+
+.oweb-popup {
+  background-color: #f0f0f0;
+  border-color: #718bb7;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid solid solid solid;
+}
+ 
+.oweb-popup-item {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	line-height: 16px;
+	outline: 0px none;
+	padding: 3px 21px 3px 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: arial, helvetica, tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.oweb-Showcase-Label {
+	font:bold 12px tahoma,verdana,helvetica;
+}
+.oweb-Showcase-Label1 {
+	font:normal 12px tahoma,verdana,helvetica;
+}
+
+.glass-Panel-color {
+	background-color: black; 
+    filter:alpha(opacity=50);-moz-opacity:.50;opacity:.50; 
+}

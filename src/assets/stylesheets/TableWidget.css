@@ -1,0 +1,352 @@
+.actualTableStyle {
+	/*display: inline;*/
+	/*background-color: black;*/
+	/*background-color: #226099;*/
+	background-color: #dce7f3;
+	width: 100%;
+	/*border-bottom: medium none;*/
+	border-color: threeddarkshadow threedhighlight threedhighlight threeddarkshadow;
+	/*filter:progid:DXImageTransform.Microsoft.Shadow(color='threedshadow', Direction=135, Strength=4);*/
+	padding: 0;
+	cursor: hand;
+	/*border-collapse: collapse;*/
+}
+
+.cellDivStyle {
+	position: relative; /* for z-index to work */
+	overflow-y: hidden; /* for auto-size, overflow:hidden is 30% faster */
+	height: 22px;
+	width: 100%;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: threedhighlight threeddarkshadow threeddarkshadow threedhighlight;
+	background-color: lightgray;
+	padding-left: 2px;
+	cursor: hand;
+}
+
+
+/**
+ * Style sheet class for fixed header <div> container
+ */
+.fixedHeaderDivContainerStyle {
+	position: absolute;
+	background-color: #226099;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	z-index: 100;
+}
+
+
+/**
+ * Fixed header table style
+ */
+.fixedHeaderTableStyle {
+	width: 100%;
+	/*height: 100%;*/
+	/*background-color: #226099;*/
+	/*border-bottom: medium none;*/
+}
+
+
+/**
+ * Style sheet class definitions for <thead> table header
+ *	background-color: 6495ED; // Corn Flower Blue
+ */
+thead.tableHeaderNormalStyle {
+	/*background-color: a96768;*/
+	/*background-color: #226099;*/
+	font-weight: bold;
+	font-family: arial;
+	font-size:11px;
+	/*border-right: 1px solid threedlightshadow;*/
+	/*border-left: 1px solid threedlightshadow;*/
+}
+
+
+/**
+ * Style sheet classes corresponding to a <TBODY> table body tag
+ */
+tbody.tableBodyNormalStyle {
+	/*background-color: e2c2a3;*/
+	background-color: white;
+	color: black;
+	border: 1px solid threedlightshadow;
+	font-family: arial;
+	font-size: 11px;
+	padding: 0;
+	cursor: hand;
+}
+
+td.tableHeaderCellStyle {
+	border-bottom-color: #dce7f3;
+	/*border-bottom: 1px solid threedlightshadow;*/
+	border-right-color: #dce7f3;
+	/*border-right: 1px solid threedlightshadow;*/
+	position: relative;
+	background-color: #dce7f3;
+}
+
+/**
+ * Style sheet classes corresponding to a <TR> table row tag
+ */
+tr.rowNormalStyle {
+	/*background-color: e2c2a3;*/
+	background-color: white;
+	color: black;
+	border-bottom: 1px solid threedlightshadow;
+	cursor: hand;
+}
+
+tr.rowNormalStyle2 {
+	/*background-color: ffe2e2;*/
+	background-color: e9e9ff;
+	color: black;
+	border-bottom: 1px solid threedlightshadow;
+	cursor: hand;
+}
+
+.cellNormalStyle {
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+cursor: hand;
+	/*border-left: 1px solid threedlightshadow;*/
+	padding: 2px;
+}
+
+.cellNormalStyleNoWrap {
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+	white-space: nowrap;
+	padding: 2px;
+	cursor: hand;
+}
+.cellEditableStyle {
+        color: #006633;
+        text-decoration: none;
+}
+
+
+
+tr.rowSelectStyle {
+	/*-color: bfa696;*/
+	background-color: #99ccff;
+	cursor: hand;
+}
+
+tr.rowColorRed {
+	/*-color: bfa696;*/
+	color: #ff0000;
+}
+
+tr.rowColorGreen {
+	/*-color: bfa696;*/
+	color: #009a31;
+}
+
+/**
+ * Generic Style sheet class definitions
+ */
+.onmouseoverStyle {
+	/*background-color: bfa696;*/
+	background-color: #99ccff;
+	border-right: 1px solid #dce7f3;
+	border-bottom: 1px solid #dce7f3;
+	/*border-left: 1px solid threedlightshadow;*/
+	cursor: hand;
+	padding: 2px;
+}
+
+
+.actualTableContainerStyle {
+	width: 100%;
+	/* Do not change this to 100%. Otherwise, resizing the window will result in the table size
+	   (height) getting extended */
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	//background-color:#F0F0F0;
+	background-color:#F9FDFF;
+}
+
+.bodyContainerDivStyle {
+	border: 1px inset;
+	border-right: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	background: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/*.bodyContainerDivStyle {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color:#F0F0F0;
+}*/
+
+/**
+ * Row Count attributes
+ */
+.rowCountStyle {
+	font-weight: bold;
+	font-family: arial-black;
+	font-size: 9px;
+	color: #226099;
+	border: 0;
+	height: 15;
+}
+.rowCountStyle2 {
+	font-weight: bold;
+	font-family: arial-black;
+	font-size: 9px;
+	color: #226099;
+}
+.TableSearchStyle {
+	font-family: arial-black;
+	font-size: 9px;
+	color: #226099;
+	border-width:1px;
+	border-style:solid;
+	border-color: ThreeDDarkShadow ThreedHighlight ThreedHighlight ThreeDDarkShadow;
+	background:transparent;
+	height: 18;
+	width: 100;
+}
+.CurrentPageNum {
+	font-weight: bold;
+	font-family: arial-black;
+	font-size: 9px;
+	text-align: center;
+	color: #226099;
+	border-width:1px;
+	border-style:solid;
+	border-color: ThreeDDarkShadow ThreedHighlight ThreedHighlight ThreeDDarkShadow;
+	background:transparent;
+	height: 18;
+	width: 100;
+}
+
+
+.PageCountStyle {
+	font-weight: bold;
+	font-family: arial-black;
+	font-size: 9px;
+	color: #226099;
+	border: 0;
+	height: 15;
+	background:transparent;
+}
+
+
+/**
+ * Header link style
+ */
+.headerLinkStyle {
+	color: #333399;
+	text-decoration: none;
+}
+
+
+/**
+ * Export to excel style
+ */
+.exportToExcelStyle {
+	font-family:arial;
+	font-size: 8px;
+	font-weight:bold;
+	color:#333399;
+	margin-left:3;
+	border:0;
+	cursor:hand;
+}
+
+/**
+ * Current page number style
+ */
+.currentPageNumberStyle {
+	font-family:arial;
+	font-size: 11px;
+	font-weight:bold;
+	background:#ffffff;
+	color:#333399;
+	border-width:1px;
+	border-style:solid;
+	border-color:#226099;
+	height:19px;
+	padding-top:1px;
+	margin-left: 3;
+	width: 25;
+}
+.APLinkStyle {
+        font-family:arial;
+        font-size: 11px;
+        font-weight:regular;
+        /*color: #008000;*/
+        color: #0000ce;
+        margin-left: 3;
+        text-decoration: underline;
+        cursor: hand
+}
+.FilterLinkStyle {
+        font-family:arial;
+        font-size: 9px;
+        font-weight:regular;
+        color: #0000ce;
+        margin-left: 3;
+        text-decoration: underline;
+        cursor: hand
+}
+.FilterLinkStyleRed {
+        font-family:arial;
+        font-size: 9px;
+        font-weight:regular;
+        color: red;
+        margin-left: 3;
+        text-decoration: underline;
+        cursor: hand
+}
+.FilterDivStyle {
+	background-color: #d7d700
+}
+.FKAStyle {
+        font-family:arial;
+        font-size: 11px;
+        font-weight:regular;
+        color: #008000;
+        margin-left: 3;
+        cursor: hand
+}
+.APImage {
+	border: 0px;
+        cursor: hand
+}
+
+.RowColorRed {
+	color:#990000;
+}
+
+.RowColorOrange {
+	color: #FF6600;
+}
+
+.RowColorLightBlue {
+	color: #0000FF;
+}
+
+.RowColorGreen {
+	color: #33FF33;
+}
+
+.RowColorBlack {
+	color: #000000;
+}
+
+.TextBoldStyle {
+	font-family:arial;
+	font-size: 11px;
+	font-weight:bold;
+}

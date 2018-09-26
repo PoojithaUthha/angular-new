@@ -1,0 +1,361 @@
+.oweb-Window .Caption {
+  padding: 0px 0px 0px 0px;
+  cursor: move;
+  border-bottom: 0px solid #bbbbbb;
+  border-top: 0px solid #d0e4f6;
+}
+
+.oweb-Window .Caption .CaptionContainer {
+  width:100%;
+}
+
+
+.oweb-Window .Caption .CaptionContainer .CaptionTextContainer {
+
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionTextContainer td {
+text-align: left;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionTextContainer .CaptionText {
+  color:#15428b;
+  font:bold 11px tahoma,arial,verdana,sans-serif;	
+  padding: 0px 0px 0px 0px;		
+  white-space: nowrap;
+  overflow: hidden; 
+}
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer {
+
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer td {
+  text-align: right;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionCloseImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:0 -0;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionHideImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:0pt -60px;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionShowImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position: -15px -75px;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionMaxImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:0 -30px;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionResImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:0 -45px;
+}
+
+.oweb-Window .Caption .CaptionContainer .CaptionImageContainer .CaptionImage-over {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px 0;
+}
+
+.oweb-Window .dialogContent {
+}
+.oweb-Window .dialogMiddleCenter {
+  padding: 3px;
+  background: white;
+}
+.oweb-Window .dialogBottomCenter {
+  background:transparent url(images/window/top-bottom.png) repeat-x 0 bottom;zoom:1;
+}
+.oweb-Window .dialogTopCenter {
+  background:transparent url(images/window/top-bottom.png) repeat-x 0 0;overflow:hidden;zoom:1;
+}
+.oweb-Window .dialogMiddleLeft {
+  background:transparent url(images/window/left-right.png) repeat-y 0 0;
+  padding-left:0px;  
+}
+.oweb-Window .dialogMiddleRight {
+  background:transparent url(images/window/left-right.png) repeat-y right 0;
+  padding-right:0px;   
+}
+.oweb-Window .dialogTopLeftInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+.oweb-Window .dialogTopRightInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+.oweb-Window .dialogBottomLeftInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+.oweb-Window .dialogBottomRightInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+.oweb-Window .dialogTopLeft {
+ background:transparent url(images/window/left-corners.png) no-repeat 0 0;
+ padding-left:0px;
+ zoom:1;
+ position:relative; 
+}
+.oweb-Window .dialogTopRight {
+  background:transparent url(images/window/right-corners.png) no-repeat right 0;
+  padding-right:0px;
+}
+.oweb-Window .dialogBottomLeft {
+ background:transparent url(images/window/left-corners.png) no-repeat 0 bottom;
+ padding-left:0px; 
+}
+.oweb-Window .dialogBottomRight {
+  background:transparent url(images/window/right-corners.png) no-repeat right bottom;
+  padding-right:0px;   
+}
+
+* html .oweb-Window .dialogTopLeftInner {
+  width: 5px;
+  overflow: hidden;
+}
+* html .oweb-Window .dialogTopRightInner {
+  width: 5px;
+  overflow: hidden;
+}
+* html .oweb-Window .dialogBottomLeftInner {
+  width: 5px;
+  	
+  overflow: hidden;
+}
+* html .oweb-Window .dialogBottomRightInner {
+  width: 5px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.oweb-Message-Content-Style {
+	padding-top:10px;
+	font:normal 12px tahoma,arial,helvetica,sans-serif;	
+}
+
+.oweb-MsgWindow .Caption {
+  padding: 0px 0px 0px 0px;
+  cursor: move;
+  border-bottom: 0px solid #bbbbbb;
+  border-top: 0px solid #d0e4f6;
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer {
+  width:100%;
+}
+
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionTextContainer {
+
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionTextContainer td {
+text-align: left;
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionTextContainer .CaptionText {
+  color:#15428b;
+  font:bold 11px tahoma,arial,verdana,sans-serif;	
+  padding: 0px 0px 0px 0px;		
+  white-space: nowrap;
+  overflow: hidden; 
+}
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionImageContainer {
+
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionImageContainer td {
+  text-align: right;
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionImageContainer .CaptionCloseImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:0 -0;
+}
+
+.oweb-MsgWindow .Caption .CaptionContainer .CaptionImageContainer .CaptionImage-over {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px 0;
+}
+
+.oweb-MsgWindow .dialogContent {
+}
+.oweb-MsgWindow .dialogMiddleCenter {
+  padding: 3px;
+  background: white;
+}
+
+.oweb-MsgWindow .dialogMiddleCenter .ContentBody {
+}
+
+.oweb-MsgWindow .dialogMiddleCenter .ContentBody .Container {
+	width:350px;
+}
+
+.oweb-MsgWindow {
+	border:1px solid gray;
+}
+
+.oweb-MsgWindow .dialogBottomCenter {
+  background:transparent url(./images/window/top-bottom.png) repeat-x 0 bottom;zoom:1;
+}
+.oweb-MsgWindow .dialogTopCenter {
+  background:transparent url(./images/window/top-bottom.png) repeat-x 0 0;overflow:hidden;zoom:1;
+}
+.oweb-MsgWindow .dialogMiddleLeft {
+  background:transparent url(./images/window/left-right.png) repeat-y 0 0;
+  padding-left:0px;  
+}
+.oweb-MsgWindow .dialogMiddleRight {
+  background:transparent url(./images/window/left-right.png) repeat-y right 0;
+  padding-right:0px;   
+}
+.oweb-MsgWindow .dialogTopLeftInner {
+  width: 1px;
+  zoom: 1;
+}
+.oweb-MsgWindow .dialogTopRightInner {
+  width: 1px;
+  zoom: 1;
+}
+.oweb-MsgWindow .dialogBottomLeftInner {
+  width: 1px;
+  height: 1px;
+  zoom: 1;
+}
+.oweb-MsgWindow .dialogBottomRightInner {
+  width: 1px;
+  height: 1px;
+  zoom: 1;
+}
+.oweb-MsgWindow .dialogTopLeft {
+ background:transparent url(./images/window/left-corners.png) no-repeat 0 0;
+ padding-left:0px;
+ zoom:1;
+ z-index:1;
+ position:relative; 
+}
+.oweb-MsgWindow .dialogTopRight {
+  background:transparent url(./images/window/right-corners.png) no-repeat right 0;
+  padding-right:0px;
+}
+.oweb-MsgWindow .dialogBottomLeft {
+ background:transparent url(./images/window/left-corners.png) no-repeat 0 bottom;
+ padding-left:0px; 
+}
+.oweb-MsgWindow .dialogBottomRight {
+  background:transparent url(./images/window/right-corners.png) no-repeat right bottom;
+  padding-right:0px;   
+}
+
+* html .oweb-MsgWindow .dialogTopLeftInner {
+  width: 5px;
+  overflow: hidden;
+}
+* html .oweb-MsgWindow .dialogTopRightInner {
+  width: 5px;
+  overflow: hidden;
+}
+* html .oweb-MsgWindow .dialogBottomLeftInner {
+  width: 5px;
+  	
+  overflow: hidden;
+}
+* html .oweb-MsgWindow .dialogBottomRightInner {
+  width: 5px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.WindowMaxImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px -30px;
+}
+
+.WindowCloseImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px 0;
+}
+
+.WindowMinImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px -15px;
+}
+
+.WindowRestoreImage {
+  overflow:hidden;
+  width:15px;
+  height:15px;
+  float:right;
+  cursor:pointer;
+  background:transparent url(images/window/tool-win.gif) no-repeat;		
+  background-position:-15px -45px;
+}

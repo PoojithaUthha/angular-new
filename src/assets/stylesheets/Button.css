@@ -1,0 +1,74 @@
+/** Add css rules here for your application. */
+
+.oweb-Button {
+	border-width:1px;
+	border-style:solid;
+	border-color:#003C74;
+	background:transparent url(images/button_stretch.png) repeat-x;
+    font:normal 11px tahoma,verdana,helvetica;
+    text-align:center;
+    padding-top:2px;
+    padding-left:2px;
+    padding-right:2px;
+    cursor:pointer;
+}
+
+.oweb-Button-focus  {
+	border-width:1px;
+	border-style:solid;
+	border-color:#F1CA7F;
+	background:transparent url(images/button_stretch.png) repeat-x;
+    font:bold 11px tahoma,verdana,helvetica;
+    text-align:center;
+    cursor:hand;
+}
+
+.oweb-Button:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+
+.oweb-ImgButton {
+	border-width:0px;
+	border-style:solid;
+	border-color:#E6E6E6;
+	background:transparent url(images/button_stretch.png) repeat-x;
+    font:normal 11px tahoma,verdana,helvetica;
+    text-align:center;
+    cursor:pointer;
+}
+
+.oweb-ImgButton-border {
+	border-width:1px;
+	border-style:solid;
+	border-color:#003C74;
+	background:transparent url(images/button_stretch.png) repeat-x;
+	background-color:#DFE8F6;
+    font:normal 11px tahoma,verdana,helvetica;
+    text-align:center;
+    cursor:pointer;
+	padding-top:2px;
+    padding-left:2px;
+    padding-right:2px;
+    cursor:pointer;
+}
+
+.oweb-ImgButton-focus  {
+	border-width:1px;
+	border-style:solid;
+	border-color:#F1CA7F;
+	background:transparent url(images/button_stretch.png) repeat-x;
+    font:bold 11px tahoma,verdana,helvetica;
+    text-align:center;
+    cursor:hand;
+}
+
+.oweb-ImgButton-font {
+    font:normal 11px tahoma,verdana,helvetica;
+    text-align:center;
+    padding-top:2px;
+}
+
+.oweb-ImgButton:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+

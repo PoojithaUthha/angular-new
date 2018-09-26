@@ -1,0 +1,232 @@
+/**
+ * Default Style sheet class definitions for the tab widget
+ */
+
+/**
+ * Style sheet class for tab table <TABLE>
+ */
+.tabTableStyle {
+	margin-bottom: 1em;
+	width: "100%";
+	table-layout: fixed;
+}
+
+/**
+ * Style sheet class definition for tab
+ */
+.tabDefaultStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight: bold;
+	/*border: 1px solid black;*/
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: 2px 5px;
+	cursor: hand;
+	background: #dce7f3;
+	background-image: url("../images/DeSelectTab.jpg");
+	background-repeat:no-repeat;
+	color: #333399;
+}
+
+
+/**
+ * Style sheet class definition for the first tab
+ */
+.firstTabDefaultStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight: bold;
+	/*border: 1px solid black;*/
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: 2px 5px;
+	cursor: hand;
+	background: #dce7f3;
+	background-image: url("../images/DeSelectFirstTab.jpg");
+	background-repeat:no-repeat;
+	color: #333399;
+}
+
+
+/**
+ * Style sheet class definition for tab
+ */
+.tabSelectedStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px 5px;
+	/*border: 1px solid black;*/
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 0;
+	background:#dce7f3;
+	background-image: url("../images/SelectTab.jpg");
+	background-repeat:no-repeat;
+	color: black;
+}
+
+
+/**
+ * Style sheet class definition for tab
+ */
+.firstTabSelectedStyle {
+	font-family:verdana;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px 5px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-left-width: 0;
+	border-bottom: 0;
+	background:#dce7f3;
+	background-image: url("../images/SelectFirstTab.jpg");
+	background-repeat:no-repeat;
+	color: black;
+}
+
+
+/**
+ * Style sheet class definition for default tab content <DIV>
+ */
+.tabContentDivDefaultStyle {
+	display: none;
+}
+
+
+/**
+ * Style sheet class definition for content <DIV> selected
+ */
+.tabContentDivSelectedStyle {
+	display: block;
+}
+
+
+/**
+ * Style sheet class definition for tab content cell - default
+ */
+.tabContentCellDefaultStyle {
+	font-family:verdana;
+	font-size: 12px;
+	font-weight: bold;
+    /*border: 1px solid black;*/
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: #dce7f3;
+    border-width: 1px 1px 1px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/**
+ *	Style sheet class for a blank tab
+ */
+.tabBlankStyle {
+	border: 1px solid black;
+	border-width: 0 0 1px;
+	border-bottom-width: 1px;
+}
+
+/**
+ * Style sheet class definition for spacer when previous tab is deselected
+ */
+.tabSpacerDefaultStyle {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	/*border: 1px solid black;
+	border-width: 0 0 1px;
+	padding: 5px;*/
+	width: 1%;
+    background: #dce7f3;
+	background-image: url("../images/DeSelectSpacer.jpg");
+	background-repeat:no-repeat;
+}
+
+
+/**
+ * Style sheet class definition for spacer when previous tab is selected
+ */
+.tabSpacerSelectStyle {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	/*border: 1px solid black;
+	border-width: 0 0 1px;
+	padding: 5px;*/
+	width: 1%;
+    background: #dce7f3;
+	background-image: url("../images/SelectSpacer.jpg");
+	background-repeat:no-repeat;
+}
+
+
+/**
+ * Style sheet class definition for "Previous" tab footer links
+ */
+.tabPreviousLinkDefaultStyle {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	border: 1px solid black;
+    background: #dce7f3;
+    border-top-width: 0;
+    border-left-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    cursor: hand;
+}
+
+/**
+ * Style sheet class definition for "Next" tab footer links
+ */
+.tabNextLinkDefaultStyle {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	border: 1px solid black;
+    background: #dce7f3;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    cursor: hand;
+}
+
+
+/**
+ * Style sheet for an invisible tab
+ * background: #dce7f3;
+ */
+.invisibleTabStyle {
+	border: 0 0 0;
+    border-width: 0 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.panelBackGroundColor {
+   /*background-image: url('../../images/panelbackground.gif');*/
+	border-right: 1px #7DBACC solid;
+	border-bottom: 1px #7DBACC solid;
+	border-left: 1px #7DBACC solid;
+	border-top: 1px #7DBACC solid;
+  background:white;
+}
+

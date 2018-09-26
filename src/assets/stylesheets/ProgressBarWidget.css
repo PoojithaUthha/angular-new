@@ -1,0 +1,70 @@
+.oweb-ProgressBar-shell {	
+  	border:1px solid #6593cf;
+  	position:relative;
+}
+
+.oweb-ProgressBar-shell .bar {
+	height:100%;
+	background:#9CBFEE;
+	border-top:1px solid #D1E4FD;
+	border-bottom:1px solid #7FA9E4;
+	border-right:1px solid #7FA9E4;	
+}
+
+.oweb-ProgressBar-shell .textBar {
+	height:100%;
+	font:bold 12px arial, tahoma, helvetica, sans-serif;
+	text-align:center;	
+	position:absolute;	
+	top:3px;
+}
+
+.oweb-ProgressBar-shell-vista {
+	position:relative;
+  	border:1px solid #6593cf;
+}
+
+.oweb-ProgressBar-shell-vista .bar {
+	height:100%;
+	background:#9CBFEE url( ../images/progress-bg.gif ) repeat-x left center;
+	border-top:1px solid #D1E4FD;
+	border-bottom:1px solid #7FA9E4;
+	border-right:1px solid #7FA9E4;	
+}
+
+.oweb-ProgressBar-shell-vista .textBar {
+	height:100%;	
+	font:bold 12px arial, tahoma, helvetica, sans-serif;
+	text-align:center;	
+	position:absolute;
+	top:3px;
+}
+
+.oweb-XPProgress-bar-outer {
+      border:1px solid #6593cf;
+}
+  
+.oweb-XPProgress-bar-inner {
+      border: 0px solid black;    
+}
+  
+.oweb-XPProgress-bar-element {
+      width: 5px;
+      height: 18px;
+      margin: 1px;
+}
+  
+.oweb-XPProgress-bar-done {
+      background:#9CBFEE url( ../images/progress-bg.gif ) repeat-x left center;
+}
+  
+.oweb-XPProgress-bar-blank {
+      background: #eee;
+}
+
+.progress-bar-bulkupload {
+  border: 3px solid #334BFF;
+  padding: 3px;
+  background: #C3CAFF;
+}
+

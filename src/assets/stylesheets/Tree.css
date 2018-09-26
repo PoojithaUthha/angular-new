@@ -1,0 +1,102 @@
+.oweb-Tree {
+    border-width:0px;
+    border-style:solid;
+    border-color:#003C74;
+    font:normal 12px tahoma,verdana,helvetica;
+    padding-left:3px;
+    padding-right:3px;
+    padding-top:0px;
+    padding-bottom:0px;
+    cursor:pointer; 
+    margin:0px;
+    width:auto;
+}
+.oweb-TreeItem {
+    font:normal 12px tahoma,verdana,helvetica;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    cursor:pointer;
+    cursor:hand;
+    margin:0;
+    width:auto;
+}
+
+.oweb-TreeWidget {
+    cursor:pointer;	
+    margin:0px;
+    width:auto;
+}
+
+.oweb-TreeWidget .oweb-TreeItemWidget {   
+	cursor:hand;
+	white-space: nowrap;
+	margin:0px;
+    width:auto;
+}
+
+
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-container-selected {
+	border:0px solid #89a;
+	background:#cedff5;
+}
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-container-disable  {
+	border:0px solid #89a;
+	cursor: default;
+    
+}
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-container-disable .oweb-Tree-container-disable-label{
+	font-family: arial, tahoma, helvetica, sans-serif;
+  	font-size: 12px;	
+	cursor: default;
+	color: #888888;
+}
+
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-on-selected {	
+	border:0px solid #80a;
+	background: #cedff5;
+}
+
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-on-selected .oweb-TreeItem-label-selected {	
+	font:bold 12px arial, tahoma, helvetica, sans-serif;
+	white-space: nowrap;
+	background: #cedff5;
+}
+
+.oweb-TreeWidget .oweb-TreeItemWidget-highlighted {	
+	font:bold 12px arial, tahoma, helvetica, sans-serif;
+	white-space: nowrap;
+	color: #006633;
+	background: #ffff00;
+}
+
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-container-selected .oweb-TreeItem-label {
+  font-family: arial, tahoma, helvetica, sans-serif;
+  font-size: 12px;
+  border:0px solid #89a;
+  white-space: nowrap;
+  display: block; 
+  cursor: pointer;	
+}
+
+
+.oweb-TreeWidget .oweb-TreeItemWidget .oweb-Tree-container .oweb-TreeItem-label {
+  font-family: arial, tahoma, helvetica, sans-serif;
+  font-size: 12px;
+  border:0px solid #89a;
+  white-space: nowrap;
+  display: block;  
+  cursor: pointer;
+}
+
+.HorizontalSplitPanel .hsplitter
+{
+    background-color            :    #00f;
+
+    /* Pretty much everything */
+    cursor                      :    e-resize;
+
+     /* IE6, IE7, FF2, Safari Win */
+    cursor                      :    col-resize;
+}

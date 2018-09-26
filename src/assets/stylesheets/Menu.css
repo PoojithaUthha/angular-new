@@ -1,0 +1,38 @@
+/**
+ * MENU SYSTEM STYLE SHEETS
+ */
+ 
+/**
+ * Style sheet class for menu item container
+ */
+.menuIconStyle {
+	display: block;
+}
+
+
+/**
+ * Mouse over style for a menu item
+ */
+.menuItemMouseOverStyle {
+	cursor: hand;
+	/*:hover: hand;*/
+}
+
+
+/**
+ * Norma/Mouse out style for a menu item
+ */
+.menuItemNormalMouseStyle {
+	cursor: pointer;
+	/*:hover: pointer;*/
+}
+
+
+/**
+ * menu item text weight
+ */
+.menuItemTextHighLightStyle {
+	font-size:14px;
+	font-weight:bold;
+	font-color:red;
+}
