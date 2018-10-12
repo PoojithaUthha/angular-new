@@ -1,3 +1,22 @@
-<p>
-  dashboard works!
-</p>
+<ngb-tabset #tabs activeId="mrc-post" class="tma-account-review-tabset">
+  <ng-container *ngFor="let tab of tabNames">
+    <ngb-tab   [title]="tab.nameToShow" id="{{tab.payloadName}}">
+      <ng-template ngbTabContent >
+        <ng-container [ngSwitch]="tab.payloadName">
+          <ng-container *ngSwitchCase="'billing'">
+
+          </ng-container>
+          <ng-container  *ngSwitchCase="'account'">
+
+          </ng-container>
+          <ng-container *ngSwitchCase="'mrc'">
+
+          </ng-container>
+          <ng-container *ngSwitchCase="'credit'">
+
+          </ng-container>
+        </ng-container>
+      </ng-template>
+    </ngb-tab>
+  </ng-container>
+</ngb-tabset>

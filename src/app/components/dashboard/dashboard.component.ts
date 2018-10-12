@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+  tabNames = [
+    { nameToShow: "Billing", payloadName: "billing"},
+    { nameToShow: "Account", payloadName: "account"},
+    { nameToShow: "MRC", payloadName: "mrc"},
+    { nameToShow: "Credit & EIP", payloadName: "credit"}];
+
   constructor() { }
 
   ngOnInit() {

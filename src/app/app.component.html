@@ -40,17 +40,17 @@
                                               <ngb-tab   [title]="tab.nameToShow" id="{{tab.payloadName}}">
                                                 <ng-template ngbTabContent >
                                                   <ng-container [ngSwitch]="tab.payloadName">
-                                                    <ng-container *ngSwitchCase="'billing'">
+                                                    <ng-container *ngSwitchCase="'dashboard'">
                                                       <app-dashboard></app-dashboard>
                                                     </ng-container>
-                                                    <ng-container  *ngSwitchCase="'account'">
-                                                      <app-dashboard></app-dashboard>
+                                                    <ng-container  *ngSwitchCase="'reference'">
+                                                      <!--app-dashboard></app-dashboard>-->
                                                     </ng-container>
-                                                    <ng-container *ngSwitchCase="'mrc'">
-                                                      <app-dashboard></app-dashboard>
+                                                    <ng-container *ngSwitchCase="'reconcilation'">
+                                                      <!--<app-dashboard></app-dashboard>-->
                                                     </ng-container>
-                                                    <ng-container *ngSwitchCase="'credit'">
-                                                      <app-dashboard></app-dashboard>
+                                                    <ng-container *ngSwitchCase="'support'">
+                                                      <!--<app-dashboard></app-dashboard>-->
                                                     </ng-container>
                                                   </ng-container>
                                                 </ng-template>

@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-new';
   tabNames = [
-    { nameToShow: "Billing", payloadName: "billing"},
-    { nameToShow: "Account", payloadName: "account"},
-    { nameToShow: "MRC", payloadName: "mrc"},
-    { nameToShow: "Credit & EIP", payloadName: "credit"}]
+    { nameToShow: "Dashboard", payloadName: "dashboard"},
+    { nameToShow: "Reference", payloadName: "reference"},
+    { nameToShow: "Reconcilation", payloadName: "reconcilation"},
+    { nameToShow: "Support", payloadName: "support"}]
 }
