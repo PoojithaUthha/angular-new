@@ -35,7 +35,29 @@
                                                                                                            style="opacity: 0; z-index: -1; height: 1px; width: 1px; overflow: hidden; position: absolute;">
                                         <table>
                                           <tbody>
-                                          <tr>
+                                          <ngb-tabset #tabs activeId="mrc-post" class="tma-account-review-tabset">
+                                            <ng-container *ngFor="let tab of tabNames">
+                                              <ngb-tab   [title]="tab.nameToShow" id="{{tab.payloadName}}">
+                                                <ng-template ngbTabContent >
+                                                  <ng-container [ngSwitch]="tab.payloadName">
+                                                    <ng-container *ngSwitchCase="'billing'">
+                                                      <app-dashboard></app-dashboard>
+                                                    </ng-container>
+                                                    <ng-container  *ngSwitchCase="'account'">
+                                                      <app-dashboard></app-dashboard>
+                                                    </ng-container>
+                                                    <ng-container *ngSwitchCase="'mrc'">
+                                                      <app-dashboard></app-dashboard>
+                                                    </ng-container>
+                                                    <ng-container *ngSwitchCase="'credit'">
+                                                      <app-dashboard></app-dashboard>
+                                                    </ng-container>
+                                                  </ng-container>
+                                                </ng-template>
+                                              </ngb-tab>
+                                            </ng-container>
+                                          </ngb-tabset>
+                                           <!-- <tr>
                                             <td class="gwt-MenuItem gwt-MenuItem-visited" id="gwt-uid-29"
                                                 role="menuitem" aria-haspopup="true">Dashboard
                                             </td>
@@ -51,7 +73,7 @@
                                             <td class="gwt-MenuItem menuItemTextColor" id="gwt-uid-112" role="menuitem"
                                                 aria-haspopup="true">Actions (2)
                                             </td>
-                                          </tr>
+                                          </tr>-->
                                           </tbody>
                                         </table>
                                       </div>
